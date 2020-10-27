@@ -1,0 +1,23 @@
+--- gnome-themes-standard-3.20.2/themes/Adwaita/gtk-2.0/main.rc~	2016-05-15 15:04:31.000000000 +0200
++++ gnome-themes-standard-3.20.2/themes/Adwaita/gtk-2.0/main.rc	2016-07-21 14:10:28.903391384 +0200
+@@ -1220,20 +1220,17 @@
+       function = FLAT_BOX
+       state    = ACTIVE
+       detail   = "entry_bg"
+-      file     = "assets/entry-background.png"
+     }
+ 
+     image {
+       function = FLAT_BOX
+       state    = INSENSITIVE
+       detail   = "entry_bg"
+-      file     = "assets/entry-background-insensitive.png"
+     }
+ 
+     image {
+       function = FLAT_BOX
+       detail   = "entry_bg"
+-      file     = "assets/entry-background.png"
+     }
+     #########
+     # Spins #
