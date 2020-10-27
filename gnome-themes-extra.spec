@@ -44,7 +44,7 @@ Requires:	adwaita-icon-theme
 Requires:	adwaita-cursor-theme
 Requires:	abattis-cantarell-fonts
 # for HighContrast theme
-Requires:	gtk2-hc-engine
+Recommends:	gtk2-hc-engine
 
 # ease upgrade mga6 -> mga7 (mga#24553)
 Conflicts:	gnome-themes-standard < 3.28
