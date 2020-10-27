@@ -26,8 +26,6 @@ Requires:	abattis-cantarell-fonts
 Requires:	adwaita-icon-theme
 Requires:	adwaita-cursor-theme
 
-Obsoletes:	gnome-themes-extras < 2.22.0-14
-Obsoletes:	gnome-themes-standard < 3.28
 Provides:	gnome-themes-standard = %{version}-%{release}
 Provides:	gnome-background-standard = %{version}-%{release}
 Provides:	gnome-themes = %{version}-%{release}
@@ -45,11 +43,6 @@ Requires:	adwaita-cursor-theme
 Requires:	abattis-cantarell-fonts
 # for HighContrast theme
 Recommends:	gtk2-hc-engine
-
-# ease upgrade mga6 -> mga7 (mga#24553)
-Conflicts:	gnome-themes-standard < 3.28
-# ease upgrade mga7 -> mga8 (mga#26598)
-Conflicts:	gnome-themes-extra < 3.28-7
 
 %description -n adwaita-gtk2-theme
 The adwaita-gtk2-theme package contains a gtk2 theme for presenting widgets
