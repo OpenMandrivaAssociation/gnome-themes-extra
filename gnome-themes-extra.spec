@@ -5,7 +5,7 @@
 
 Name:		gnome-themes-extra
 Version:	3.28
-Release:	1
+Release:	2
 Summary:	Standard themes for GNOME applications
 Group:		Graphical desktop/GNOME
 License:	LGPLv2+
@@ -26,7 +26,7 @@ Requires:	abattis-cantarell-fonts
 Requires:	adwaita-icon-theme
 Requires:	adwaita-cursor-theme
 
-Provides:	gnome-themes-standard = %{version}-%{release}
+#Provides:	gnome-themes-standard = %{version}-%{release}
 Provides:	gnome-background-standard = %{version}-%{release}
 Provides:	gnome-themes = %{version}-%{release}
 
