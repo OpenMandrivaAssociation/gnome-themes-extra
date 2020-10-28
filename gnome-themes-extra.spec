@@ -5,7 +5,7 @@
 
 Name:		gnome-themes-extra
 Version:	3.28
-Release:	2
+Release:	3
 Summary:	Standard themes for GNOME applications
 Group:		Graphical desktop/GNOME
 License:	LGPLv2+
@@ -35,7 +35,7 @@ The gnome-themes-extra package contains the standard theme for the GNOME
 desktop, which provides default appearance for cursors, desktop background,
 window borders and GTK+ applications.
 
-%package -n adwaita-gtk2-theme
+%package -n adwaita-gtk2-theme-3.28
 Summary:	Adwaita gtk2 theme
 Group:		Graphical desktop/GNOME
 Requires:	adwaita-icon-theme
@@ -44,7 +44,7 @@ Requires:	abattis-cantarell-fonts
 # for HighContrast theme
 Recommends:	gtk2-hc-engine
 
-%description -n adwaita-gtk2-theme
+%description -n adwaita-gtk2-theme-3.28
 The adwaita-gtk2-theme package contains a gtk2 theme for presenting widgets
 with a GNOME look and feel.
 
@@ -97,7 +97,7 @@ fi
 %ghost %{_datadir}/icons/HighContrast/icon-theme.cache
 %{_datadir}/themes/HighContrast/gtk-3.0/
 
-%files -n adwaita-gtk2-theme
+%files -n adwaita-gtk2-theme-3.28
 %{_libdir}/gtk-2.0/2.10.0/engines/libadwaita.so
 
 %dir %{_datadir}/themes/Adwaita/
