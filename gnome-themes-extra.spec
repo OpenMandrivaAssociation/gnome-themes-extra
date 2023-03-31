@@ -5,7 +5,7 @@
 
 Name:		gnome-themes-extra
 Version:	3.28
-Release:	3
+Release:	4
 Summary:	Standard themes for GNOME applications
 Group:		Graphical desktop/GNOME
 License:	LGPLv2+
