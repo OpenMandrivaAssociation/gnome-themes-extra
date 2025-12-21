@@ -12,6 +12,11 @@ License:	LGPLv2+
 URL:		https://gitlab.gnome.org/GNOME/gnome-themes-extra
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 Patch1337:	gnome-themes-standard-3.20.2-allow-modification-of-bg-colour.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
