@@ -90,7 +90,6 @@ fi
 %{_iconsdir}/HighContrast/*/
 %ghost %{_iconsdir}/HighContrast/icon-theme.cache
 %{_iconsdir}/HighContrast/index.theme
-%dir %{_datadir}/icons/HighContrast
 %{_datadir}/themes/HighContrast/gtk-3.0/
 
 %files -n adwaita-gtk2-theme-3.28
