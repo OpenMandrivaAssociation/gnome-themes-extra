@@ -91,15 +91,6 @@ fi
 %ghost %{_iconsdir}/HighContrast/icon-theme.cache
 %{_iconsdir}/HighContrast/index.theme
 %dir %{_datadir}/icons/HighContrast
-%{_datadir}/icons/HighContrast/16x16/
-%{_datadir}/icons/HighContrast/22x22/
-%{_datadir}/icons/HighContrast/24x24/
-%{_datadir}/icons/HighContrast/32x32/
-%{_datadir}/icons/HighContrast/48x48/
-%{_datadir}/icons/HighContrast/256x256/
-%{_datadir}/icons/HighContrast/scalable/
-%{_datadir}/icons/HighContrast/index.theme
-%ghost %{_datadir}/icons/HighContrast/icon-theme.cache
 %{_datadir}/themes/HighContrast/gtk-3.0/
 
 %files -n adwaita-gtk2-theme-3.28
